@@ -6,8 +6,9 @@ import MainNavbar from './layout/MainNavbar'
 import MainProfile from './layout/MainProfile'
 import Chatboxes from './layout/Chat'
 import FooterPage from './layout/foot'
+import ProfileSetting from './layout/profilesetting'
 var styles1 = {
-  
+
     display: 'inline-block',
 };
 
@@ -18,14 +19,14 @@ function App() {
       <MainNavbar />
 
         <div class="row">
-          <MainProfile /><Chatboxes />
+          <MainProfile />  <Chatboxes />
         </div>
 
 
 
-      
-    
-      
+
+
+
 
     <FooterPage />
     </div>

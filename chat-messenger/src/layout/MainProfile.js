@@ -9,7 +9,7 @@ const MainPrfile = () => {
     return (
         <div id="user-profile">
         <div class="col-lg-10 col-md-5 col-sm-5">
-         
+
             <div class="main-box clearfix">
                 <h2>Donald Trump</h2>
                 <div class="profile-status">
@@ -43,8 +43,8 @@ const MainPrfile = () => {
 
                 <div class="profile-message-btn center-block text-center">
                     <a href="#" class="btn btn-success" style={{marginRight: 40 + "px"}}>
-                        <i class="fa fa-envelope"></i> Edit Profile
-
+                        <i class="fa fa-envelope" onClick='ProfileSetting'></i> Edit Profile
+                          
                     </a>
                     <a href="#" class="btn btn-danger">
                        <i class="fa fa-envelope"></i> Logout Account
