@@ -1,6 +1,7 @@
 import "../css/MainProfile.css";
 
 import React from 'react';
+import { Route, IndexRoute } from 'react-router';
 
 
 
@@ -43,7 +44,7 @@ const MainPrfile = () => {
 
                 <div class="profile-message-btn center-block text-center">
                     <a href="#" class="btn btn-success" style={{marginRight: 40 + "px"}}>
-                        <i class="fa fa-envelope" onClick='ProfileSetting'></i> Edit Profile
+                        <i class="fa fa-envelope" onClick='ProfileSetting'></i> Edit Profile - Ben
                           
                     </a>
                     <a href="#" class="btn btn-danger">
